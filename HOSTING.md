@@ -66,8 +66,8 @@ services:
   mcstatusbot:
     image: rar1871/mcstatusbot:latest
     environment:
-      - CLIENT_ID=<YOUR_BOT_CLIENT_ID>
-      - TOKEN=<YOUR_BOT_TOKEN>
+      - CLIENT_ID=<1562498533565931550>
+      - TOKEN=<MTU2MjQ5ODUzMzU2NTkzMTU1MA.GIRFao.H9rLCiA6IXEV3nof4xGwgHGcm7KrFCwMbw-9wA>
     depends_on:
       - mcpingserver
       - mongodb
